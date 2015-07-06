@@ -12,7 +12,7 @@ use pocketmine\event\PlayerJoinEvent;
 class Main extends PluginBase implements Listener{
 
 public function onEnable(){
-$this->getServer->getPluginManager->registerEvents($this, $this);
+$this->getServer()->getPluginManager()->registerEvents($this, $this);
 $this->getLogger->info(TextFormat::BLUE."Join" . TextFormat::GOLD . "Tips" . TextFormat::GREEN . " Enabled!");
 $this->getLogger->info(TextFormat::BLUE."Join" . TextFormat::GOLD . "Tips" . TextFormat::GREEN . " Created By " . TextFormat::LIGHT_PURPLE . "ItzBulkDev");
 $this->saveDefaultConfig;
