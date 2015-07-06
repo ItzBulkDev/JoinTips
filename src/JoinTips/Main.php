@@ -13,8 +13,8 @@ class Main extends PluginBase implements Listener{
 
 public function onEnable(){
 $this->getServer()->getPluginManager()->registerEvents($this, $this);
-$this->getLogger->info(TextFormat::BLUE."Join" . TextFormat::GOLD . "Tips" . TextFormat::GREEN . " Enabled!");
-$this->getLogger->info(TextFormat::BLUE."Join" . TextFormat::GOLD . "Tips" . TextFormat::GREEN . " Created By " . TextFormat::LIGHT_PURPLE . "ItzBulkDev");
+$this->getServer()->getLogger()->info(TextFormat::BLUE."Join" . TextFormat::GOLD . "Tips" . TextFormat::GREEN . " Enabled!");
+$this->getServer()->getLogger()->info(TextFormat::BLUE."Join" . TextFormat::GOLD . "Tips" . TextFormat::GREEN . " Created By " . TextFormat::LIGHT_PURPLE . "ItzBulkDev");
 $this->saveDefaultConfig;
 $config = $this->getConfig();
 $tip = $this->getConfig("Player-Tip");
