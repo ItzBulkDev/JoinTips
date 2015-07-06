@@ -1,5 +1,5 @@
 //The Tip Sent To The Player That Joins
-//Use $p for the player's name
+//Use $p for the players name
 
 Player-Tip: "§6§lWelcome §4 $p §6To The §3Server!"
 
