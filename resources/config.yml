@@ -2,10 +2,10 @@
 //The Tip Sent To The Player That Joins
 //Use $p for the players name
 
-Player-Tip: "§6§lWelcome §4 $p §6To The §3Server!"
+Player-Tip: "Welcome $p To The Server!"
 
 
 //The Tip Sent To The Players In The Server
 
-Server-Tip: "§4§l $p §6Joined The §3Server§6!"
+Server-Tip: "$p Joined The Server!"
 ...
