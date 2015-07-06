@@ -26,9 +26,9 @@ public function onPlayerJoin(PlayerJoinEvent $event){
   $tip = $this->getConfig("Player-Tip");
   $tipb = $this->getConfig("Server-Tip");
   $p = $event->getPlayer();
-  $pb = $p->getName();
-  //$pc = $this->getServer()->getOnlinePlayers();
+  $pb = $event->getPlayer()->getName();
+  $pc = $this->getServer()->getOnlinePlayers();
   $p->sendTip($tip);
-  //$pc->sendTip($tipb);
+  $pc->sendTip($tipb);
 }
 }
